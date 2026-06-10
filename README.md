@@ -1,224 +1,127 @@
-<p align="center">
-  <img src="assets/banner.png" alt="Hoshyar Banner" width="100%">
-</p>
+# 🤖 Hoshyar Project
 
-<h1 align="center">🤖 Hoshyar</h1>
+> An intelligent AI-powered assistant for WordPress websites.
 
-<p align="center">
-  <strong>AI-Powered WordPress Assistant</strong>
-</p>
+Hoshyar is a powerful AI assistant designed to help website owners, developers, and businesses automate workflows, improve productivity, and manage WordPress websites more efficiently.
 
-<p align="center">
-  An intelligent assistant designed to simplify website management, automate workflows, and enhance productivity through Artificial Intelligence.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/WordPress-Supported-21759B?style=for-the-badge&logo=wordpress&logoColor=white">
-  <img src="https://img.shields.io/badge/AI-Powered-00C853?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active%20Development-FF9800?style=for-the-badge">
-  <img src="https://img.shields.io/badge/License-MIT-E53935?style=for-the-badge">
-</p>
-
----
-
-## 🚀 Overview
-
-**Hoshyar** is an AI-powered assistant built to transform the way website owners and administrators manage their digital platforms.
-
-By leveraging **Artificial Intelligence**, **Natural Language Processing (NLP)**, and **Automation**, Hoshyar helps users streamline workflows, improve efficiency, generate content, optimize SEO, and make smarter decisions.
-
-Designed primarily for **WordPress**, Hoshyar acts as a digital co-pilot that understands user intent and assists in day-to-day website operations.
-
----
-
-## 🎯 Vision
-
-Managing websites often involves repetitive and time-consuming tasks.
-
-Hoshyar's mission is to eliminate unnecessary complexity by providing an intelligent assistant capable of:
-
-- Understanding natural language commands
-- Automating repetitive workflows
-- Assisting content creators
-- Optimizing website performance
-- Delivering actionable insights
-
-> **Making website management faster, smarter, and more efficient with AI.**
+By combining Artificial Intelligence, Natural Language Processing (NLP), and automation technologies, Hoshyar simplifies complex tasks and enables users to focus on what truly matters: growing their business.
 
 ---
 
 ## ✨ Features
 
-### 📝 AI Content Assistant
+### 📝 AI Content Assistance
 
-- Generate high-quality content
-- Rewrite and improve existing content
-- Summarize articles and documents
-- Content planning assistance
+* Generate high-quality content with AI
+* Improve existing articles and pages
+* Create SEO-friendly content suggestions
 
-### ⚙️ Workflow Automation
+### ⚡ Workflow Automation
 
-- Automate repetitive administrative tasks
-- Reduce manual workload
-- Trigger intelligent actions through commands
+* Automate repetitive website management tasks
+* Reduce manual workload
+* Increase productivity and efficiency
 
-### 📈 SEO Optimization
+### 🔍 SEO Optimization
 
-- AI-powered SEO suggestions
-- Content structure analysis
-- Metadata recommendations
-- Search visibility improvements
+* Content optimization recommendations
+* SEO analysis and improvement suggestions
+* Better search engine visibility
 
-### 💬 Natural Language Interface
+### 🤝 Smart User Support
 
-- Interact using human language
-- No technical expertise required
-- Context-aware understanding
-
-### 📊 Analytics & Insights
-
-- Analyze website data
-- Generate performance reports
-- Provide actionable recommendations
+* AI-powered conversational assistant
+* Instant responses to user questions
+* Enhanced user engagement
 
 ### 🌐 WordPress Integration
 
-- Built specifically for WordPress
-- Optimized for website administrators
-- Seamless workflow integration
+* Built specifically for WordPress
+* Easy installation and configuration
+* Seamless integration with existing websites
+
+### 📊 Data Insights
+
+* Analyze website information
+* Generate intelligent recommendations
+* Help improve decision-making processes
 
 ---
 
-## 🏗️ Roadmap
-
-### Phase 1
-
-- [x] Core AI Assistant
-- [x] WordPress Integration
-- [x] Content Generation
-- [x] Basic Workflow Automation
-
-### Phase 2
-
-- [ ] Advanced SEO Assistant
-- [ ] Smart Analytics Dashboard
-- [ ] Multi-site Management
-- [ ] AI Knowledge Base
-
-### Phase 3
-
-- [ ] Custom AI Agents
-- [ ] Workflow Builder
-- [ ] Team Collaboration Features
-- [ ] Third-party Integrations
-
----
-
-## 💡 Benefits
-
-✅ Save Time
-
-✅ Improve Productivity
-
-✅ Automate Repetitive Tasks
-
-✅ Enhance Content Quality
-
-✅ Boost SEO Performance
-
-✅ Simplify Website Management
-
----
-
-## 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| PHP | Backend Development |
-| WordPress | CMS Platform |
-| JavaScript | Frontend Interactions |
-| REST API | System Communication |
-| Artificial Intelligence | Smart Features |
-| NLP | Language Understanding |
-| Machine Learning | Intelligent Recommendations |
-
----
-
-## 📂 Project Structure
+## 🏗️ Project Structure
 
 ```text
-hoshyar/
-├── assets/
-├── includes/
-├── admin/
-├── public/
-├── languages/
-├── templates/
-├── vendor/
-└── hoshyar.php
+Hoshyar/
+├── assets/          # CSS, JavaScript, Images
+├── inc/             # Core Classes & Functions
+├── vendor/          # Composer Dependencies
+├── views/           # Admin & Frontend Views
+├── core.php         # Main Plugin Bootstrap
+├── composer.json    # Composer Configuration
+└── README.md
 ```
 
 ---
 
-## 🚦 Getting Started
+## 🚀 Installation
 
-### Installation
-
-```bash
-git clone https://github.com/yourusername/hoshyar.git
-```
-
-### Navigate to Project
+1. Clone the repository:
 
 ```bash
-cd hoshyar
+git clone https://github.com/tahakarami-dev/hoshyar.git
 ```
 
-### Activate Plugin
+2. Install dependencies:
 
-Upload the plugin to your WordPress installation and activate it from the WordPress Admin Dashboard.
+```bash
+composer install
+```
+
+3. Upload the plugin to your WordPress installation.
+
+4. Activate the plugin from the WordPress Dashboard.
+
+5. Configure your AI settings and start using Hoshyar.
 
 ---
 
-## 🤝 Contributing
+## 🎯 Vision
 
-Contributions are welcome.
+The goal of Hoshyar is to become an intelligent digital assistant that empowers WordPress users by automating routine tasks, improving website management, and providing AI-driven insights.
 
-To contribute:
+We believe the future of website management is intelligent, automated, and accessible to everyone.
 
-```bash
-# Fork repository
+---
 
-# Create feature branch
-git checkout -b feature/amazing-feature
+## 🛠️ Technologies
 
-# Commit changes
-git commit -m "Add amazing feature"
+* PHP
+* WordPress
+* JavaScript
+* Composer
+* Artificial Intelligence
+* Natural Language Processing (NLP)
 
-# Push branch
-git push origin feature/amazing-feature
-```
+---
 
-Then create a Pull Request.
+## 📌 Status
+
+🚧 Active Development
+
+Hoshyar is currently under continuous development, with new features and improvements being added regularly.
+
+---
+
+## 👨‍💻 Author
+
+**Taha Karami**
+
+Backend Developer • WordPress Developer • AI Enthusiast
+
+GitHub: https://github.com/tahakarami-dev
 
 ---
 
 ## 📄 License
 
-Distributed under the MIT License.
-
-See the `LICENSE` file for more information.
-
----
-
-## 👨‍💻 Authors
-
-### Hoshyar Team
-
-Building the future of intelligent website management through Artificial Intelligence.
-
----
-
-<p align="center">
-  Made with ❤️ for WordPress Creators & Developers
-</p>
+This project is licensed under the MIT License.
